@@ -50,3 +50,22 @@ section {
   z-index: 1;
   position: absolute;
 }
+
+#webcamButton {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: #797878 0 2px;
+
+    /* HOVER OFF */
+    -webkit-transition: padding 500ms;
+}
+
+#webcamButton:hover {
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: #797878 0 5px;
+  transition: ease-in-out;
+  transition-delay: 5ms;
+  transition: duration 500ms;
+  transition-property: initial;
+}
